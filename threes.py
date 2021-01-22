@@ -1,8 +1,9 @@
 # this is a program intended to return the number of values up to and
-# including a given integer which contain the digit three at least one time
+# including a given base 10 integer which contain the digit three at least one time
 n = int(input("Enter a value:"))
 a_list = list(range(0, n+1))
 string_to_test = str(a_list)
+
 chars_to_check = ["3"]
 count = 0
 for char in chars_to_check:
