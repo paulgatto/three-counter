@@ -9,4 +9,4 @@ for char in chars_to_check:
     if char in string_to_test:
         count = count+1
 
-print ("Number of threes found in range = " + str((count)))
+print ("Number of threes found in range = " + str(count))
